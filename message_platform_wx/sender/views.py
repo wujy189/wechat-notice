@@ -10,8 +10,8 @@ class WeChat(object):
     # init attribute
     def __init__(self, url):
         self.__url = url.rstrip('/')
-        self.__corpid = 'ww51c3d280edda69c4'
-        self.__secret = 'w0b8ZCQEJnZvLmRR2UBAuIb9Z4sIV93TBvDD2MMWo9U'
+        self.__corpid = 'oo'
+        self.__secret = 'xx'
 
     # Get TokenID
     def authID(self):
